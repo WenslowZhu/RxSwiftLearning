@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		1808C1CF20453B100052AB8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808C1CE20453B100052AB8D /* AppDelegate.swift */; };
-		1808C1D120453B100052AB8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808C1D020453B100052AB8D /* ViewController.swift */; };
 		1808C1D420453B100052AB8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1808C1D220453B100052AB8D /* Main.storyboard */; };
 		1808C1D720453B100052AB8D /* RxSwiftLearning.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1808C1D520453B100052AB8D /* RxSwiftLearning.xcdatamodeld */; };
 		1808C1D920453B100052AB8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1808C1D820453B100052AB8D /* Assets.xcassets */; };
 		1808C1DC20453B100052AB8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1808C1DA20453B100052AB8D /* LaunchScreen.storyboard */; };
 		1808C1E720453B100052AB8D /* RxSwiftLearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808C1E620453B100052AB8D /* RxSwiftLearningTests.swift */; };
 		1808C1F220453B100052AB8D /* RxSwiftLearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808C1F120453B100052AB8D /* RxSwiftLearningUITests.swift */; };
+		1808C20020453F070052AB8D /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808C1FF20453F070052AB8D /* RootViewController.swift */; };
+		1808C205204542600052AB8D /* SimpleValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808C204204542600052AB8D /* SimpleValidationViewController.swift */; };
+		1808C207204542720052AB8D /* SimpleValidationViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1808C206204542720052AB8D /* SimpleValidationViewController.storyboard */; };
+		186A62DD20455B3A005ED748 /* SingleObservableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186A62DC20455B3A005ED748 /* SingleObservableViewController.swift */; };
+		186A62DF20455B43005ED748 /* SingleObservable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186A62DE20455B43005ED748 /* SingleObservable.storyboard */; };
 		1F1EE40F68F6383E90583290 /* Pods_RxSwiftLearningTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15BC059C0B580BCC1E66852D /* Pods_RxSwiftLearningTests.framework */; };
 		77543AF0ED70FA5A6FFEDCEB /* Pods_RxSwiftLearningUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8224A9A08A1FC2AE200EDAB2 /* Pods_RxSwiftLearningUITests.framework */; };
 		963E46CE1C489734B5AB0417 /* Pods_RxSwiftLearning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C43858D3CE2A4B018D9B3E29 /* Pods_RxSwiftLearning.framework */; };
@@ -42,7 +46,6 @@
 		15BC059C0B580BCC1E66852D /* Pods_RxSwiftLearningTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftLearningTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1808C1CB20453B100052AB8D /* RxSwiftLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1808C1CE20453B100052AB8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1808C1D020453B100052AB8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1808C1D320453B100052AB8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1808C1D620453B100052AB8D /* RxSwiftLearning.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RxSwiftLearning.xcdatamodel; sourceTree = "<group>"; };
 		1808C1D820453B100052AB8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,6 +57,11 @@
 		1808C1ED20453B100052AB8D /* RxSwiftLearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwiftLearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1808C1F120453B100052AB8D /* RxSwiftLearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftLearningUITests.swift; sourceTree = "<group>"; };
 		1808C1F320453B100052AB8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1808C1FF20453F070052AB8D /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		1808C204204542600052AB8D /* SimpleValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleValidationViewController.swift; sourceTree = "<group>"; };
+		1808C206204542720052AB8D /* SimpleValidationViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SimpleValidationViewController.storyboard; sourceTree = "<group>"; };
+		186A62DC20455B3A005ED748 /* SingleObservableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleObservableViewController.swift; sourceTree = "<group>"; };
+		186A62DE20455B43005ED748 /* SingleObservable.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SingleObservable.storyboard; sourceTree = "<group>"; };
 		23C913B0803DA81E7B011E37 /* Pods-RxSwiftLearningTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftLearningTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftLearningTests/Pods-RxSwiftLearningTests.release.xcconfig"; sourceTree = "<group>"; };
 		27B399CC736A996FDE03A313 /* Pods-RxSwiftLearningTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftLearningTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftLearningTests/Pods-RxSwiftLearningTests.debug.xcconfig"; sourceTree = "<group>"; };
 		48569111E222C452AC7492D3 /* Pods-RxSwiftLearningUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftLearningUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftLearningUITests/Pods-RxSwiftLearningUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,13 +124,14 @@
 		1808C1CD20453B100052AB8D /* RxSwiftLearning */ = {
 			isa = PBXGroup;
 			children = (
+				1808C203204542270052AB8D /* Examples */,
 				1808C1CE20453B100052AB8D /* AppDelegate.swift */,
-				1808C1D020453B100052AB8D /* ViewController.swift */,
 				1808C1D220453B100052AB8D /* Main.storyboard */,
 				1808C1D820453B100052AB8D /* Assets.xcassets */,
 				1808C1DA20453B100052AB8D /* LaunchScreen.storyboard */,
 				1808C1DD20453B100052AB8D /* Info.plist */,
 				1808C1D520453B100052AB8D /* RxSwiftLearning.xcdatamodeld */,
+				1808C1FF20453F070052AB8D /* RootViewController.swift */,
 			);
 			path = RxSwiftLearning;
 			sourceTree = "<group>";
@@ -143,6 +152,33 @@
 				1808C1F320453B100052AB8D /* Info.plist */,
 			);
 			path = RxSwiftLearningUITests;
+			sourceTree = "<group>";
+		};
+		1808C203204542270052AB8D /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				186A62DB20455B1F005ED748 /* SingleObservable */,
+				1808C2082045448D0052AB8D /* SimpleValidation */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		1808C2082045448D0052AB8D /* SimpleValidation */ = {
+			isa = PBXGroup;
+			children = (
+				1808C204204542600052AB8D /* SimpleValidationViewController.swift */,
+				1808C206204542720052AB8D /* SimpleValidationViewController.storyboard */,
+			);
+			path = SimpleValidation;
+			sourceTree = "<group>";
+		};
+		186A62DB20455B1F005ED748 /* SingleObservable */ = {
+			isa = PBXGroup;
+			children = (
+				186A62DC20455B3A005ED748 /* SingleObservableViewController.swift */,
+				186A62DE20455B43005ED748 /* SingleObservable.storyboard */,
+			);
+			path = SingleObservable;
 			sourceTree = "<group>";
 		};
 		977293EFED6E6D6AD4DBF45A /* Pods */ = {
@@ -284,9 +320,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1808C207204542720052AB8D /* SimpleValidationViewController.storyboard in Resources */,
 				1808C1DC20453B100052AB8D /* LaunchScreen.storyboard in Resources */,
 				1808C1D920453B100052AB8D /* Assets.xcassets in Resources */,
 				1808C1D420453B100052AB8D /* Main.storyboard in Resources */,
+				186A62DF20455B43005ED748 /* SingleObservable.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,8 +516,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1808C1D720453B100052AB8D /* RxSwiftLearning.xcdatamodeld in Sources */,
-				1808C1D120453B100052AB8D /* ViewController.swift in Sources */,
+				1808C20020453F070052AB8D /* RootViewController.swift in Sources */,
+				186A62DD20455B3A005ED748 /* SingleObservableViewController.swift in Sources */,
 				1808C1CF20453B100052AB8D /* AppDelegate.swift in Sources */,
+				1808C205204542600052AB8D /* SimpleValidationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
