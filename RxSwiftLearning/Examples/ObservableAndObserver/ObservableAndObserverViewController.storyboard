@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6UB-lh-APf">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Observable And Observer-->
+        <scene sceneID="PIk-lm-LCy">
+            <objects>
+                <viewController id="6UB-lh-APf" customClass="ObservableAndObserverViewController" customModule="RxSwiftLearning" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BLK-Sx-dvs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="dAE-Gc-5cQ">
+                                <rect key="frame" x="16" y="20" width="343" height="627"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NfD-2t-rR0">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="119"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yeI-4j-lO5">
+                                        <rect key="frame" x="0.0" y="127" width="343" height="119"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="TGF-l2-IKm">
+                                        <rect key="frame" x="0.0" y="254" width="343" height="119"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="I2F-AY-hYt">
+                                        <rect key="frame" x="0.0" y="381" width="343" height="119"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="t4G-Kk-bxh">
+                                        <rect key="frame" x="0.0" y="508" width="343" height="119"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ldX-84-ANP" firstAttribute="trailing" secondItem="dAE-Gc-5cQ" secondAttribute="trailing" constant="16" id="8MS-dP-9SR"/>
+                            <constraint firstItem="dAE-Gc-5cQ" firstAttribute="top" secondItem="ldX-84-ANP" secondAttribute="top" id="UVW-Z2-rio"/>
+                            <constraint firstItem="ldX-84-ANP" firstAttribute="bottom" secondItem="dAE-Gc-5cQ" secondAttribute="bottom" constant="20" id="iNb-mI-EpA"/>
+                            <constraint firstItem="dAE-Gc-5cQ" firstAttribute="leading" secondItem="ldX-84-ANP" secondAttribute="leading" constant="16" id="yxL-2g-KXq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ldX-84-ANP"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Observable And Observer" id="hQt-uU-hys"/>
+                    <connections>
+                        <outlet property="asyncSubjectTextViewOutlet" destination="NfD-2t-rR0" id="VxE-09-3VE"/>
+                        <outlet property="behaviorSubjectTextViewOutlet" destination="I2F-AY-hYt" id="GGa-Jv-gES"/>
+                        <outlet property="publicSubjectTextViewOutlet" destination="yeI-4j-lO5" id="CnD-Gp-FYg"/>
+                        <outlet property="replaySubjectTextViewOutlet" destination="TGF-l2-IKm" id="Kc4-dA-Wda"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6bs-pN-TG0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-274.39999999999998" y="175.86206896551727"/>
+        </scene>
+    </scenes>
+</document>

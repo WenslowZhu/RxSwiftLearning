@@ -13,15 +13,13 @@ import RxCocoa
 fileprivate let minimalUsernameLength = 5
 fileprivate let minimalPasswordLength = 5
 
-class SimpleValidationViewController: UIViewController {
+class SimpleValidationViewController: RxViewController {
 
     @IBOutlet weak var usernameOutlet: UITextField!
     @IBOutlet weak var usernameValidationOutlet: UILabel!
     @IBOutlet weak var passwordOutlet: UITextField!
     @IBOutlet weak var passwordValidationOutlet: UILabel!
     @IBOutlet weak var doSomethingOutlet: UIButton!
-
-    private var disposeBag = DisposeBag()
 
     override func viewDidLoad() {
         super.viewDidLoad()

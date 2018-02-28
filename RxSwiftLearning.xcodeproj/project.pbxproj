@@ -21,6 +21,16 @@
 		186A62DF20455B43005ED748 /* SingleObservable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186A62DE20455B43005ED748 /* SingleObservable.storyboard */; };
 		1F1EE40F68F6383E90583290 /* Pods_RxSwiftLearningTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15BC059C0B580BCC1E66852D /* Pods_RxSwiftLearningTests.framework */; };
 		77543AF0ED70FA5A6FFEDCEB /* Pods_RxSwiftLearningUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8224A9A08A1FC2AE200EDAB2 /* Pods_RxSwiftLearningUITests.framework */; };
+		82C83A1D2046441F00FB5B40 /* RxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C83A1C2046441F00FB5B40 /* RxViewController.swift */; };
+		82C83A202046498A00FB5B40 /* CompleteObservableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C83A1F2046498A00FB5B40 /* CompleteObservableViewController.swift */; };
+		82C83A2220464C2600FB5B40 /* CompleteObservableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82C83A2120464C2600FB5B40 /* CompleteObservableViewController.storyboard */; };
+		82C83A2520464F3B00FB5B40 /* MaybeObservableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C83A2420464F3B00FB5B40 /* MaybeObservableViewController.swift */; };
+		82C83A2720464F7400FB5B40 /* MaybeObservableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82C83A2620464F7400FB5B40 /* MaybeObservableViewController.storyboard */; };
+		82C83A29204653D200FB5B40 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C83A28204653D200FB5B40 /* AlertHelper.swift */; };
+		82C83A2C20465E7400FB5B40 /* DriverObservableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C83A2B20465E7400FB5B40 /* DriverObservableViewController.swift */; };
+		82C83A2E20465E7C00FB5B40 /* DriverObservableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82C83A2D20465E7C00FB5B40 /* DriverObservableViewController.storyboard */; };
+		82C83A3120468D6400FB5B40 /* ObservableAndObserverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C83A3020468D6400FB5B40 /* ObservableAndObserverViewController.swift */; };
+		82C83A3320468D8200FB5B40 /* ObservableAndObserverViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82C83A3220468D8200FB5B40 /* ObservableAndObserverViewController.storyboard */; };
 		963E46CE1C489734B5AB0417 /* Pods_RxSwiftLearning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C43858D3CE2A4B018D9B3E29 /* Pods_RxSwiftLearning.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +76,16 @@
 		27B399CC736A996FDE03A313 /* Pods-RxSwiftLearningTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftLearningTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftLearningTests/Pods-RxSwiftLearningTests.debug.xcconfig"; sourceTree = "<group>"; };
 		48569111E222C452AC7492D3 /* Pods-RxSwiftLearningUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftLearningUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftLearningUITests/Pods-RxSwiftLearningUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8224A9A08A1FC2AE200EDAB2 /* Pods_RxSwiftLearningUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftLearningUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C83A1C2046441F00FB5B40 /* RxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxViewController.swift; sourceTree = "<group>"; };
+		82C83A1F2046498A00FB5B40 /* CompleteObservableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteObservableViewController.swift; sourceTree = "<group>"; };
+		82C83A2120464C2600FB5B40 /* CompleteObservableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CompleteObservableViewController.storyboard; sourceTree = "<group>"; };
+		82C83A2420464F3B00FB5B40 /* MaybeObservableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaybeObservableViewController.swift; sourceTree = "<group>"; };
+		82C83A2620464F7400FB5B40 /* MaybeObservableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MaybeObservableViewController.storyboard; sourceTree = "<group>"; };
+		82C83A28204653D200FB5B40 /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		82C83A2B20465E7400FB5B40 /* DriverObservableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverObservableViewController.swift; sourceTree = "<group>"; };
+		82C83A2D20465E7C00FB5B40 /* DriverObservableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DriverObservableViewController.storyboard; sourceTree = "<group>"; };
+		82C83A3020468D6400FB5B40 /* ObservableAndObserverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableAndObserverViewController.swift; sourceTree = "<group>"; };
+		82C83A3220468D8200FB5B40 /* ObservableAndObserverViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ObservableAndObserverViewController.storyboard; sourceTree = "<group>"; };
 		972D47D369E529CC66815C37 /* Pods-RxSwiftLearningUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftLearningUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftLearningUITests/Pods-RxSwiftLearningUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9E2083902E410DB7AAADFE20 /* Pods-RxSwiftLearning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftLearning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftLearning/Pods-RxSwiftLearning.debug.xcconfig"; sourceTree = "<group>"; };
 		C43858D3CE2A4B018D9B3E29 /* Pods_RxSwiftLearning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftLearning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +144,7 @@
 		1808C1CD20453B100052AB8D /* RxSwiftLearning */ = {
 			isa = PBXGroup;
 			children = (
+				82C83A1B204643E200FB5B40 /* Service */,
 				1808C203204542270052AB8D /* Examples */,
 				1808C1CE20453B100052AB8D /* AppDelegate.swift */,
 				1808C1D220453B100052AB8D /* Main.storyboard */,
@@ -157,6 +178,10 @@
 		1808C203204542270052AB8D /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				82C83A2F20468D2A00FB5B40 /* ObservableAndObserver */,
+				82C83A2A20465E5300FB5B40 /* DriverObservable */,
+				82C83A2320464F2000FB5B40 /* MaybeObservable */,
+				82C83A1E2046496400FB5B40 /* CompleteObservable */,
 				186A62DB20455B1F005ED748 /* SingleObservable */,
 				1808C2082045448D0052AB8D /* SimpleValidation */,
 			);
@@ -179,6 +204,51 @@
 				186A62DE20455B43005ED748 /* SingleObservable.storyboard */,
 			);
 			path = SingleObservable;
+			sourceTree = "<group>";
+		};
+		82C83A1B204643E200FB5B40 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				82C83A1C2046441F00FB5B40 /* RxViewController.swift */,
+				82C83A28204653D200FB5B40 /* AlertHelper.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		82C83A1E2046496400FB5B40 /* CompleteObservable */ = {
+			isa = PBXGroup;
+			children = (
+				82C83A1F2046498A00FB5B40 /* CompleteObservableViewController.swift */,
+				82C83A2120464C2600FB5B40 /* CompleteObservableViewController.storyboard */,
+			);
+			path = CompleteObservable;
+			sourceTree = "<group>";
+		};
+		82C83A2320464F2000FB5B40 /* MaybeObservable */ = {
+			isa = PBXGroup;
+			children = (
+				82C83A2420464F3B00FB5B40 /* MaybeObservableViewController.swift */,
+				82C83A2620464F7400FB5B40 /* MaybeObservableViewController.storyboard */,
+			);
+			path = MaybeObservable;
+			sourceTree = "<group>";
+		};
+		82C83A2A20465E5300FB5B40 /* DriverObservable */ = {
+			isa = PBXGroup;
+			children = (
+				82C83A2B20465E7400FB5B40 /* DriverObservableViewController.swift */,
+				82C83A2D20465E7C00FB5B40 /* DriverObservableViewController.storyboard */,
+			);
+			path = DriverObservable;
+			sourceTree = "<group>";
+		};
+		82C83A2F20468D2A00FB5B40 /* ObservableAndObserver */ = {
+			isa = PBXGroup;
+			children = (
+				82C83A3020468D6400FB5B40 /* ObservableAndObserverViewController.swift */,
+				82C83A3220468D8200FB5B40 /* ObservableAndObserverViewController.storyboard */,
+			);
+			path = ObservableAndObserver;
 			sourceTree = "<group>";
 		};
 		977293EFED6E6D6AD4DBF45A /* Pods */ = {
@@ -320,11 +390,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82C83A2E20465E7C00FB5B40 /* DriverObservableViewController.storyboard in Resources */,
 				1808C207204542720052AB8D /* SimpleValidationViewController.storyboard in Resources */,
 				1808C1DC20453B100052AB8D /* LaunchScreen.storyboard in Resources */,
+				82C83A3320468D8200FB5B40 /* ObservableAndObserverViewController.storyboard in Resources */,
 				1808C1D920453B100052AB8D /* Assets.xcassets in Resources */,
 				1808C1D420453B100052AB8D /* Main.storyboard in Resources */,
+				82C83A2720464F7400FB5B40 /* MaybeObservableViewController.storyboard in Resources */,
 				186A62DF20455B43005ED748 /* SingleObservable.storyboard in Resources */,
+				82C83A2220464C2600FB5B40 /* CompleteObservableViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,9 +589,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82C83A3120468D6400FB5B40 /* ObservableAndObserverViewController.swift in Sources */,
+				82C83A2520464F3B00FB5B40 /* MaybeObservableViewController.swift in Sources */,
 				1808C1D720453B100052AB8D /* RxSwiftLearning.xcdatamodeld in Sources */,
 				1808C20020453F070052AB8D /* RootViewController.swift in Sources */,
+				82C83A202046498A00FB5B40 /* CompleteObservableViewController.swift in Sources */,
+				82C83A1D2046441F00FB5B40 /* RxViewController.swift in Sources */,
+				82C83A2C20465E7400FB5B40 /* DriverObservableViewController.swift in Sources */,
 				186A62DD20455B3A005ED748 /* SingleObservableViewController.swift in Sources */,
+				82C83A29204653D200FB5B40 /* AlertHelper.swift in Sources */,
 				1808C1CF20453B100052AB8D /* AppDelegate.swift in Sources */,
 				1808C205204542600052AB8D /* SimpleValidationViewController.swift in Sources */,
 			);

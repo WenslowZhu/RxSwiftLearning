@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aSh-NM-6R8">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Maybe Observable-->
+        <scene sceneID="Jzz-yd-6ld">
+            <objects>
+                <viewController id="aSh-NM-6R8" customClass="MaybeObservableViewController" customModule="RxSwiftLearning" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GXW-aW-eUZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JVl-CL-Sfa">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Poy-PP-1cM">
+                                <rect key="frame" x="169" y="315.5" width="37" height="37"/>
+                                <color key="color" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ipl-FS-vWG" firstAttribute="bottom" secondItem="JVl-CL-Sfa" secondAttribute="bottom" id="LNP-wK-b3T"/>
+                            <constraint firstItem="Poy-PP-1cM" firstAttribute="centerY" secondItem="GXW-aW-eUZ" secondAttribute="centerY" id="RPS-VS-BJp"/>
+                            <constraint firstItem="Poy-PP-1cM" firstAttribute="centerX" secondItem="GXW-aW-eUZ" secondAttribute="centerX" id="RXm-u5-ZNX"/>
+                            <constraint firstItem="Ipl-FS-vWG" firstAttribute="trailing" secondItem="JVl-CL-Sfa" secondAttribute="trailing" id="Y5F-aD-6HQ"/>
+                            <constraint firstItem="JVl-CL-Sfa" firstAttribute="leading" secondItem="Ipl-FS-vWG" secondAttribute="leading" id="gJR-o2-SIR"/>
+                            <constraint firstItem="JVl-CL-Sfa" firstAttribute="top" secondItem="Ipl-FS-vWG" secondAttribute="top" id="iHN-VZ-LyA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ipl-FS-vWG"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Maybe Observable" id="CTo-Lq-kDN"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="Poy-PP-1cM" id="mzp-FB-69K"/>
+                        <outlet property="imageOutlet" destination="JVl-CL-Sfa" id="I7k-uX-q46"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8B5-Gw-fe6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-918" y="19"/>
+        </scene>
+    </scenes>
+</document>

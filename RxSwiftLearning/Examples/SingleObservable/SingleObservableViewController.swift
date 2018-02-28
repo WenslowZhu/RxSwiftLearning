@@ -10,12 +10,10 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-class SingleObservableViewController: UIViewController {
+class SingleObservableViewController: RxViewController {
 
     @IBOutlet weak var repoOutlet: UITextView!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
-
-    var disposebag = DisposeBag()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,22 +24,21 @@ class SingleObservableViewController: UIViewController {
 
         getRepo("ReactiveX/RxSwift")
             .subscribe(onSuccess: { [weak self] (json) in
-                DispatchQueue.main.async {
-                    self?.repoOutlet.text = json.description
-                    self?.activityIndicator.stopAnimating()
-                }
+               self?.repoOutlet.text = json.description
             }) { [weak self] (error) in
-                DispatchQueue.main.async {
-                    self?.repoOutlet.text = error.localizedDescription
-                    self?.activityIndicator.stopAnimating()
-                }
-            }.disposed(by: disposebag)
+                self?.repoOutlet.text = error.localizedDescription
+            }.disposed(by: disposeBag)
     }
 
     private func getRepo(_ repo: String)->Single<[String: Any]>{
         return Single<[String: Any]>.create(subscribe: { (single) -> Disposable in
             let url = URL(string: "https://api.github.com/repos/\(repo)")!
-            let task = URLSession.shared.dataTask(with: url, completionHandler: { (data, _, error) in
+            let task = URLSession.shared.dataTask(with: url, completionHandler: { [weak self] (data, _, error) in
+                
+                DispatchQueue.main.async {
+                    self?.activityIndicator.stopAnimating()
+                }
+                
                 if let error = error {
                     single(.error(error))
                     return
@@ -51,6 +48,7 @@ class SingleObservableViewController: UIViewController {
                     let data = data,
                     let json = try? JSONSerialization.jsonObject(with: data, options: .mutableLeaves),
                     let result = json as? [String: Any] else {
+                        self?.present(AlertHelper.commonAlert(title: "No Data"), animated: true, completion: nil)
                         return
                 }
 
@@ -61,7 +59,7 @@ class SingleObservableViewController: UIViewController {
             return Disposables.create {
                 task.cancel()
             }
-        })
+        }).observeOn(MainScheduler.asyncInstance)
     }
 
 }
