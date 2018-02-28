@@ -21,6 +21,8 @@
 		186A62DF20455B43005ED748 /* SingleObservable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186A62DE20455B43005ED748 /* SingleObservable.storyboard */; };
 		1F1EE40F68F6383E90583290 /* Pods_RxSwiftLearningTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15BC059C0B580BCC1E66852D /* Pods_RxSwiftLearningTests.framework */; };
 		77543AF0ED70FA5A6FFEDCEB /* Pods_RxSwiftLearningUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8224A9A08A1FC2AE200EDAB2 /* Pods_RxSwiftLearningUITests.framework */; };
+		8234D80B2046AA140033116F /* OperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8234D80A2046AA140033116F /* OperatorViewController.swift */; };
+		8234D80D2046AA1F0033116F /* OperatorViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8234D80C2046AA1F0033116F /* OperatorViewController.storyboard */; };
 		82C83A1D2046441F00FB5B40 /* RxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C83A1C2046441F00FB5B40 /* RxViewController.swift */; };
 		82C83A202046498A00FB5B40 /* CompleteObservableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C83A1F2046498A00FB5B40 /* CompleteObservableViewController.swift */; };
 		82C83A2220464C2600FB5B40 /* CompleteObservableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82C83A2120464C2600FB5B40 /* CompleteObservableViewController.storyboard */; };
@@ -76,6 +78,8 @@
 		27B399CC736A996FDE03A313 /* Pods-RxSwiftLearningTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftLearningTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftLearningTests/Pods-RxSwiftLearningTests.debug.xcconfig"; sourceTree = "<group>"; };
 		48569111E222C452AC7492D3 /* Pods-RxSwiftLearningUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftLearningUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftLearningUITests/Pods-RxSwiftLearningUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8224A9A08A1FC2AE200EDAB2 /* Pods_RxSwiftLearningUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftLearningUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8234D80A2046AA140033116F /* OperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorViewController.swift; sourceTree = "<group>"; };
+		8234D80C2046AA1F0033116F /* OperatorViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OperatorViewController.storyboard; sourceTree = "<group>"; };
 		82C83A1C2046441F00FB5B40 /* RxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxViewController.swift; sourceTree = "<group>"; };
 		82C83A1F2046498A00FB5B40 /* CompleteObservableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteObservableViewController.swift; sourceTree = "<group>"; };
 		82C83A2120464C2600FB5B40 /* CompleteObservableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CompleteObservableViewController.storyboard; sourceTree = "<group>"; };
@@ -178,6 +182,7 @@
 		1808C203204542270052AB8D /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				8234D8092046A9F40033116F /* Operator */,
 				82C83A2F20468D2A00FB5B40 /* ObservableAndObserver */,
 				82C83A2A20465E5300FB5B40 /* DriverObservable */,
 				82C83A2320464F2000FB5B40 /* MaybeObservable */,
@@ -204,6 +209,15 @@
 				186A62DE20455B43005ED748 /* SingleObservable.storyboard */,
 			);
 			path = SingleObservable;
+			sourceTree = "<group>";
+		};
+		8234D8092046A9F40033116F /* Operator */ = {
+			isa = PBXGroup;
+			children = (
+				8234D80A2046AA140033116F /* OperatorViewController.swift */,
+				8234D80C2046AA1F0033116F /* OperatorViewController.storyboard */,
+			);
+			path = Operator;
 			sourceTree = "<group>";
 		};
 		82C83A1B204643E200FB5B40 /* Service */ = {
@@ -399,6 +413,7 @@
 				82C83A2720464F7400FB5B40 /* MaybeObservableViewController.storyboard in Resources */,
 				186A62DF20455B43005ED748 /* SingleObservable.storyboard in Resources */,
 				82C83A2220464C2600FB5B40 /* CompleteObservableViewController.storyboard in Resources */,
+				8234D80D2046AA1F0033116F /* OperatorViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,6 +606,7 @@
 			files = (
 				82C83A3120468D6400FB5B40 /* ObservableAndObserverViewController.swift in Sources */,
 				82C83A2520464F3B00FB5B40 /* MaybeObservableViewController.swift in Sources */,
+				8234D80B2046AA140033116F /* OperatorViewController.swift in Sources */,
 				1808C1D720453B100052AB8D /* RxSwiftLearning.xcdatamodeld in Sources */,
 				1808C20020453F070052AB8D /* RootViewController.swift in Sources */,
 				82C83A202046498A00FB5B40 /* CompleteObservableViewController.swift in Sources */,

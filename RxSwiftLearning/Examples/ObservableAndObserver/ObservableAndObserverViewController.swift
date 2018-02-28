@@ -23,6 +23,7 @@ class ObservableAndObserverViewController: RxViewController {
         testAsyncSubject()
         testPublicSubject()
         testReplaySubject()
+        testBehaviorSubject()
     }
     
     private func testAsyncSubject() {
@@ -34,7 +35,7 @@ class ObservableAndObserverViewController: RxViewController {
         
         asyncSubject.bind { [weak self] (newString) in
             if let oldString = self?.asyncSubjectTextViewOutlet.text {
-                self?.asyncSubjectTextViewOutlet.text = oldString + newString
+                self?.asyncSubjectTextViewOutlet.text = oldString + "Async Subject: 1 Event " + newString
             }
         }.disposed(by: disposeBag)
         
@@ -78,11 +79,17 @@ class ObservableAndObserverViewController: RxViewController {
     }
     
     private func testReplaySubject() {
-        let subject = ReplaySubject<String>.create(bufferSize: 1)
+        let subject = ReplaySubject<String>.create(bufferSize: 1)//缓存多少订阅前的元素
         
         subject.subscribe({
             print("Replay Subject: 1 Event", $0)
         }).disposed(by: disposeBag)
+        
+        subject.bind { [weak self] (newString) in
+            if let oldString = self?.replaySubjectTextViewOutlet.text {
+                self?.replaySubjectTextViewOutlet.text = oldString + "Replay Subject: 1 Event " + newString + "\n"
+            }
+            }.disposed(by: disposeBag)
         
         subject.onNext("🐶")
         subject.onNext("🐱")
@@ -91,8 +98,58 @@ class ObservableAndObserverViewController: RxViewController {
             print("Replay Subject: 2 Event", $0)
         }).disposed(by: disposeBag)
         
+        subject.bind { [weak self] (newString) in
+            if let oldString = self?.replaySubjectTextViewOutlet.text {
+                self?.replaySubjectTextViewOutlet.text = oldString + "Replay Subject: 2 Event " + newString + "\n"
+            }
+            }.disposed(by: disposeBag)
+        
         subject.onNext("A")
         subject.onNext("B")
+        subject.onCompleted()
+    }
+    
+    private func testBehaviorSubject() {
+        let subject = BehaviorSubject(value: "🍠")
+        
+        subject.subscribe({
+            print("Behavior Subject: 1 Event", $0)
+        }).disposed(by: disposeBag)
+        
+        subject.bind { [weak self] (newString) in
+            if let oldString = self?.behaviorSubjectTextViewOutlet.text {
+                self?.behaviorSubjectTextViewOutlet.text = oldString + "Behavior Subject: 1 Event " + newString + "\n"
+            }
+            }.disposed(by: disposeBag)
+        
+        subject.onNext("🐶")
+        subject.onNext("🐱")
+        
+        subject.subscribe({
+            print("Behavior Subject: 2 Event", $0)
+        }).disposed(by: disposeBag)
+        
+        subject.bind { [weak self] (newString) in
+            if let oldString = self?.behaviorSubjectTextViewOutlet.text {
+                self?.behaviorSubjectTextViewOutlet.text = oldString + "Behavior Subject: 2 Event " + newString + "\n"
+            }
+            }.disposed(by: disposeBag)
+        
+        subject.onNext("A")
+        subject.onNext("B")
+        
+        subject.subscribe({
+            print("Behavior Subject: 3 Event", $0)
+        }).disposed(by: disposeBag)
+        
+        subject.bind { [weak self] (newString) in
+            if let oldString = self?.behaviorSubjectTextViewOutlet.text {
+                self?.behaviorSubjectTextViewOutlet.text = oldString + "Behavior Subject: 3 Event " + newString + "\n"
+            }
+            }.disposed(by: disposeBag)
+        
+        subject.onNext("🍐")
+        subject.onNext("🍊")
         subject.onCompleted()
     }
 }
