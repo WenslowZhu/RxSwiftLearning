@@ -41,6 +41,9 @@ class OperatorViewController: RxViewController {
         
         rxTemperature
             .filter { $0 >= 50 }
+            .retryWhen({ (_) -> Observable<Int> in
+                return Observable.timer(3, scheduler: ConcurrentDispatchQueueScheduler(qos: .default))
+            })
             .subscribe(onNext: { [weak self] (temperature) in
                 if let oldString = self?.filterOutlet.text {
                     self?.filterOutlet.text = oldString + "--" + "\(temperature)"
@@ -65,6 +68,14 @@ class OperatorViewController: RxViewController {
         
         rxTemperature
             .map{"\($0)"}
+            .retryWhen({ (rxError) -> Observable<Int> in
+                return rxError.enumerated().flatMap({ (index, error) -> Observable<Int> in
+                    guard index < 5 else {
+                        return Observable.error(error)
+                    }
+                    return Observable<Int>.timer(3, scheduler: ConcurrentDispatchQueueScheduler(qos: .default))
+                })
+            })
             .subscribe(onNext: { [weak self] (newString) in
             if let oldString = self?.mapOutlet.text {
                 self?.mapOutlet.text = oldString + "--" + newString

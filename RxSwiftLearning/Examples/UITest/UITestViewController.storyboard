@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="akk-91-3L2">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--UITest-->
+        <scene sceneID="d8t-PM-BZj">
+            <objects>
+                <viewController id="akk-91-3L2" customClass="UITestViewController" customModule="RxSwiftLearning" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kvg-dX-hF6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jFj-bJ-WB5">
+                                <rect key="frame" x="16" y="35" width="51" height="31"/>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SN7-8I-ml1">
+                                <rect key="frame" x="80" y="40" width="279" height="27.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jFj-bJ-WB5" firstAttribute="leading" secondItem="xKU-L5-UPV" secondAttribute="leading" constant="16" id="OoK-wn-oIN"/>
+                            <constraint firstItem="SN7-8I-ml1" firstAttribute="top" secondItem="xKU-L5-UPV" secondAttribute="top" constant="20" id="X0z-eS-Ggq"/>
+                            <constraint firstItem="jFj-bJ-WB5" firstAttribute="top" secondItem="xKU-L5-UPV" secondAttribute="top" constant="15" id="gCg-ec-YhC"/>
+                            <constraint firstItem="SN7-8I-ml1" firstAttribute="leading" secondItem="jFj-bJ-WB5" secondAttribute="trailing" constant="15" id="wdl-5d-mCk"/>
+                            <constraint firstItem="xKU-L5-UPV" firstAttribute="trailing" secondItem="SN7-8I-ml1" secondAttribute="trailing" constant="16" id="wuO-ag-Jlh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xKU-L5-UPV"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="UITest" id="6vE-c2-faW"/>
+                    <connections>
+                        <outlet property="switchStateOutlet" destination="SN7-8I-ml1" id="XCI-yt-YvA"/>
+                        <outlet property="switcher" destination="jFj-bJ-WB5" id="ey9-nc-lif"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eMG-SL-tr0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-265" y="180"/>
+        </scene>
+    </scenes>
+</document>

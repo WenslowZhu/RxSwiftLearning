@@ -24,17 +24,18 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="clq-6g-M72">
-                                <rect key="frame" x="170" y="316" width="37" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="clq-6g-M72">
+                                <rect key="frame" x="169" y="315" width="37" height="37"/>
                                 <color key="color" red="0.60784313729999995" green="0.60784313729999995" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
                             </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="wDV-xv-Xli" firstAttribute="trailing" secondItem="Fc4-CP-Ikc" secondAttribute="trailing" constant="16" id="BZj-fC-jxu"/>
+                            <constraint firstItem="clq-6g-M72" firstAttribute="centerY" secondItem="mLN-oh-61Z" secondAttribute="centerY" id="Blk-mH-oYi"/>
                             <constraint firstItem="Fc4-CP-Ikc" firstAttribute="leading" secondItem="wDV-xv-Xli" secondAttribute="leading" constant="16" id="HDZ-mn-TEF"/>
                             <constraint firstItem="Fc4-CP-Ikc" firstAttribute="top" secondItem="wDV-xv-Xli" secondAttribute="top" id="SfK-HB-IB2"/>
+                            <constraint firstItem="clq-6g-M72" firstAttribute="centerX" secondItem="mLN-oh-61Z" secondAttribute="centerX" id="b4u-mS-eQ5"/>
                             <constraint firstItem="wDV-xv-Xli" firstAttribute="bottom" secondItem="Fc4-CP-Ikc" secondAttribute="bottom" constant="20" id="q6j-5m-Bhf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="wDV-xv-Xli"/>

@@ -206,6 +206,33 @@
                                             <segue destination="XwF-bw-OSO" kind="show" id="LfZ-8K-vTP"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="SKs-RG-mAH" detailTextLabel="9Vc-ow-adg" style="IBUITableViewCellStyleSubtitle" id="rn0-qg-DJW">
+                                        <rect key="frame" x="0.0" y="523" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rn0-qg-DJW" id="bkH-UT-agJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="UITest" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SKs-RG-mAH">
+                                                    <rect key="frame" x="16" y="5" width="49" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9Vc-ow-adg">
+                                                    <rect key="frame" x="16" y="25.5" width="44" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="D1X-U4-FfH" kind="show" id="3K7-YU-YOQ"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -234,7 +261,15 @@
                 <viewControllerPlaceholder storyboardName="SimpleValidationViewController" id="XwF-bw-OSO" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WIP-6i-1zK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="391" y="237"/>
+            <point key="canvasLocation" x="390" y="104"/>
+        </scene>
+        <!--UITestViewController-->
+        <scene sceneID="Qoh-9A-CpD">
+            <objects>
+                <viewControllerPlaceholder storyboardName="UITestViewController" id="D1X-U4-FfH" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rdc-7k-F8u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="273" y="205"/>
         </scene>
         <!--OperatorViewController-->
         <scene sceneID="sSU-dV-szM">
@@ -242,7 +277,7 @@
                 <viewControllerPlaceholder storyboardName="OperatorViewController" id="JYm-1i-rRA" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wIB-mP-XMb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="354" y="96"/>
+            <point key="canvasLocation" x="353" y="-27"/>
         </scene>
         <!--DriverObservableViewController-->
         <scene sceneID="nGy-UX-tda">
