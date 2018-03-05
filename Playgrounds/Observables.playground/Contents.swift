@@ -9,12 +9,12 @@ example(of: "just, of, from") {
     let three = 3
     
     // 2
-    let observable1 = Observable<Int>.just(one)
+//    let observable1 = Observable<Int>.just(one)
     
     let observable2 = Observable.of(one, two, three)
-    let observable3 = Observable.of([one, two, three])
+//    let observable3 = Observable.of([one, two, three])
     
-    let observable4 = Observable.from([one, two, three])
+//    let observable4 = Observable.from([one, two, three])
     
    // 3
     

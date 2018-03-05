@@ -9,7 +9,7 @@
 import UIKit
 
 class AlertHelper: NSObject {
-    class func commonAlert(title: String)->UIAlertController{
+    class func commonAlert(title: String, massage: String? = nil)->UIAlertController{
         let ac = UIAlertController(title: title, message: nil, preferredStyle: .alert)
         ac.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
         return ac

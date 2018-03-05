@@ -21,8 +21,19 @@
 		186A62DF20455B43005ED748 /* SingleObservable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186A62DE20455B43005ED748 /* SingleObservable.storyboard */; };
 		1F1EE40F68F6383E90583290 /* Pods_RxSwiftLearningTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15BC059C0B580BCC1E66852D /* Pods_RxSwiftLearningTests.framework */; };
 		77543AF0ED70FA5A6FFEDCEB /* Pods_RxSwiftLearningUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8224A9A08A1FC2AE200EDAB2 /* Pods_RxSwiftLearningUITests.framework */; };
+		82208A98204D3A0C0091160A /* PHPhotoLibrary+rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82208A97204D3A0C0091160A /* PHPhotoLibrary+rx.swift */; };
 		8234D80B2046AA140033116F /* OperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8234D80A2046AA140033116F /* OperatorViewController.swift */; };
 		8234D80D2046AA1F0033116F /* OperatorViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8234D80C2046AA1F0033116F /* OperatorViewController.storyboard */; };
+		82B60FC0204CD36800683242 /* CombinestagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B60FBF204CD36800683242 /* CombinestagramViewController.swift */; };
+		82B60FC2204CD37F00683242 /* CombinestagramViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82B60FC1204CD37F00683242 /* CombinestagramViewController.storyboard */; };
+		82B60FC8204CD59300683242 /* UIImage+Collage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B60FC3204CD59200683242 /* UIImage+Collage.swift */; };
+		82B60FC9204CD59300683242 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B60FC4204CD59200683242 /* MainViewController.swift */; };
+		82B60FCA204CD59300683242 /* PhotoWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B60FC5204CD59200683242 /* PhotoWriter.swift */; };
+		82B60FCB204CD59300683242 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B60FC6204CD59200683242 /* PhotosViewController.swift */; };
+		82B60FCC204CD59300683242 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B60FC7204CD59200683242 /* PhotoCell.swift */; };
+		82B60FCE204CD76B00683242 /* IMG_1907.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82B60FCD204CD76A00683242 /* IMG_1907.jpg */; };
+		82B60FD0204CE9EC00683242 /* PhotosViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82B60FCF204CE9EB00683242 /* PhotosViewController.storyboard */; };
+		82B60FD2204CEF1000683242 /* UIViewController+rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B60FD1204CEF1000683242 /* UIViewController+rx.swift */; };
 		82C202222047D88C002AFEBF /* UITestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C202212047D88C002AFEBF /* UITestViewController.swift */; };
 		82C202242047D89A002AFEBF /* UITestViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82C202232047D89A002AFEBF /* UITestViewController.storyboard */; };
 		82C83A1D2046441F00FB5B40 /* RxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C83A1C2046441F00FB5B40 /* RxViewController.swift */; };
@@ -81,9 +92,21 @@
 		48569111E222C452AC7492D3 /* Pods-RxSwiftLearningUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftLearningUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftLearningUITests/Pods-RxSwiftLearningUITests.release.xcconfig"; sourceTree = "<group>"; };
 		82192D74204804F400B07823 /* Observables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		82192D752048054000B07823 /* Subjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subjects.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		82208A97204D3A0C0091160A /* PHPhotoLibrary+rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PHPhotoLibrary+rx.swift"; sourceTree = "<group>"; };
 		8224A9A08A1FC2AE200EDAB2 /* Pods_RxSwiftLearningUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftLearningUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8234D80A2046AA140033116F /* OperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorViewController.swift; sourceTree = "<group>"; };
 		8234D80C2046AA1F0033116F /* OperatorViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OperatorViewController.storyboard; sourceTree = "<group>"; };
+		82B60FBF204CD36800683242 /* CombinestagramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinestagramViewController.swift; sourceTree = "<group>"; };
+		82B60FC1204CD37F00683242 /* CombinestagramViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CombinestagramViewController.storyboard; sourceTree = "<group>"; };
+		82B60FC3204CD59200683242 /* UIImage+Collage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Collage.swift"; sourceTree = "<group>"; };
+		82B60FC4204CD59200683242 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		82B60FC5204CD59200683242 /* PhotoWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoWriter.swift; sourceTree = "<group>"; };
+		82B60FC6204CD59200683242 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		82B60FC7204CD59200683242 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		82B60FCD204CD76A00683242 /* IMG_1907.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1907.jpg; sourceTree = "<group>"; };
+		82B60FCF204CE9EB00683242 /* PhotosViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PhotosViewController.storyboard; sourceTree = "<group>"; };
+		82B60FD1204CEF1000683242 /* UIViewController+rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+rx.swift"; sourceTree = "<group>"; };
+		82B60FD3204CF4ED00683242 /* FilterOperations.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FilterOperations.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		82C202212047D88C002AFEBF /* UITestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestViewController.swift; sourceTree = "<group>"; };
 		82C202232047D89A002AFEBF /* UITestViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UITestViewController.storyboard; sourceTree = "<group>"; };
 		82C83A1C2046441F00FB5B40 /* RxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxViewController.swift; sourceTree = "<group>"; };
@@ -189,6 +212,7 @@
 		1808C203204542270052AB8D /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				82B60FBE204CD32900683242 /* Combinestagram */,
 				82C202202047D875002AFEBF /* UITest */,
 				8234D8092046A9F40033116F /* Operator */,
 				82C83A2F20468D2A00FB5B40 /* ObservableAndObserver */,
@@ -222,6 +246,7 @@
 		82192D73204804DC00B07823 /* Playgrounds */ = {
 			isa = PBXGroup;
 			children = (
+				82B60FD3204CF4ED00683242 /* FilterOperations.playground */,
 				82192D752048054000B07823 /* Subjects.playground */,
 				82192D74204804F400B07823 /* Observables.playground */,
 			);
@@ -235,6 +260,24 @@
 				8234D80C2046AA1F0033116F /* OperatorViewController.storyboard */,
 			);
 			path = Operator;
+			sourceTree = "<group>";
+		};
+		82B60FBE204CD32900683242 /* Combinestagram */ = {
+			isa = PBXGroup;
+			children = (
+				82B60FCD204CD76A00683242 /* IMG_1907.jpg */,
+				82B60FC4204CD59200683242 /* MainViewController.swift */,
+				82B60FC7204CD59200683242 /* PhotoCell.swift */,
+				82B60FC6204CD59200683242 /* PhotosViewController.swift */,
+				82B60FC5204CD59200683242 /* PhotoWriter.swift */,
+				82B60FC3204CD59200683242 /* UIImage+Collage.swift */,
+				82B60FBF204CD36800683242 /* CombinestagramViewController.swift */,
+				82B60FC1204CD37F00683242 /* CombinestagramViewController.storyboard */,
+				82B60FCF204CE9EB00683242 /* PhotosViewController.storyboard */,
+				82B60FD1204CEF1000683242 /* UIViewController+rx.swift */,
+				82208A97204D3A0C0091160A /* PHPhotoLibrary+rx.swift */,
+			);
+			path = Combinestagram;
 			sourceTree = "<group>";
 		};
 		82C202202047D875002AFEBF /* UITest */ = {
@@ -431,13 +474,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				82C83A2E20465E7C00FB5B40 /* DriverObservableViewController.storyboard in Resources */,
+				82B60FC2204CD37F00683242 /* CombinestagramViewController.storyboard in Resources */,
 				1808C207204542720052AB8D /* SimpleValidationViewController.storyboard in Resources */,
 				1808C1DC20453B100052AB8D /* LaunchScreen.storyboard in Resources */,
 				82C83A3320468D8200FB5B40 /* ObservableAndObserverViewController.storyboard in Resources */,
 				82C202242047D89A002AFEBF /* UITestViewController.storyboard in Resources */,
+				82B60FD0204CE9EC00683242 /* PhotosViewController.storyboard in Resources */,
 				1808C1D920453B100052AB8D /* Assets.xcassets in Resources */,
 				1808C1D420453B100052AB8D /* Main.storyboard in Resources */,
 				82C83A2720464F7400FB5B40 /* MaybeObservableViewController.storyboard in Resources */,
+				82B60FCE204CD76B00683242 /* IMG_1907.jpg in Resources */,
 				186A62DF20455B43005ED748 /* SingleObservable.storyboard in Resources */,
 				82C83A2220464C2600FB5B40 /* CompleteObservableViewController.storyboard in Resources */,
 				8234D80D2046AA1F0033116F /* OperatorViewController.storyboard in Resources */,
@@ -631,18 +677,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82B60FC0204CD36800683242 /* CombinestagramViewController.swift in Sources */,
 				82C83A3120468D6400FB5B40 /* ObservableAndObserverViewController.swift in Sources */,
 				82C83A2520464F3B00FB5B40 /* MaybeObservableViewController.swift in Sources */,
 				8234D80B2046AA140033116F /* OperatorViewController.swift in Sources */,
 				1808C1D720453B100052AB8D /* RxSwiftLearning.xcdatamodeld in Sources */,
+				82B60FD2204CEF1000683242 /* UIViewController+rx.swift in Sources */,
 				1808C20020453F070052AB8D /* RootViewController.swift in Sources */,
+				82208A98204D3A0C0091160A /* PHPhotoLibrary+rx.swift in Sources */,
 				82C83A202046498A00FB5B40 /* CompleteObservableViewController.swift in Sources */,
+				82B60FC9204CD59300683242 /* MainViewController.swift in Sources */,
 				82C83A1D2046441F00FB5B40 /* RxViewController.swift in Sources */,
+				82B60FCB204CD59300683242 /* PhotosViewController.swift in Sources */,
 				82C202222047D88C002AFEBF /* UITestViewController.swift in Sources */,
+				82B60FCC204CD59300683242 /* PhotoCell.swift in Sources */,
 				82C83A2C20465E7400FB5B40 /* DriverObservableViewController.swift in Sources */,
+				82B60FCA204CD59300683242 /* PhotoWriter.swift in Sources */,
 				186A62DD20455B3A005ED748 /* SingleObservableViewController.swift in Sources */,
 				82C83A29204653D200FB5B40 /* AlertHelper.swift in Sources */,
 				1808C1CF20453B100052AB8D /* AppDelegate.swift in Sources */,
+				82B60FC8204CD59300683242 /* UIImage+Collage.swift in Sources */,
 				1808C205204542600052AB8D /* SimpleValidationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -817,7 +871,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = FordTZ.com.test.RxSwiftLearning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -833,7 +887,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = FordTZ.com.test.RxSwiftLearning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

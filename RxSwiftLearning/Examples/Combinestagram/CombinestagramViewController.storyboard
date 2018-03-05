@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ahr-Yz-Kpp">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Combinestagram-->
+        <scene sceneID="Tm7-Ax-BjV">
+            <objects>
+                <viewController id="Ahr-Yz-Kpp" customClass="CombinestagramViewController" customModule="RxSwiftLearning" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yfS-mc-5XU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ih7-qt-X9I">
+                                <rect key="frame" x="16" y="47" width="343" height="248"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="248" id="or5-v9-KxJ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mUi-hQ-eJK">
+                                <rect key="frame" x="16" y="353" width="103" height="103"/>
+                                <color key="backgroundColor" red="0.4039215686" green="0.79607843140000001" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="103" id="KBS-28-IR2"/>
+                                    <constraint firstAttribute="height" constant="103" id="ohC-i0-Jbd"/>
+                                </constraints>
+                                <state key="normal" title="Clear"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CTq-GD-Mrj">
+                                <rect key="frame" x="256" y="353" width="103" height="103"/>
+                                <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="103" id="BB8-Nc-dwq"/>
+                                    <constraint firstAttribute="width" constant="103" id="BJm-BX-83l"/>
+                                </constraints>
+                                <state key="normal" title="Save"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="foy-bb-fDo">
+                                <rect key="frame" x="122" y="464" width="131" height="119"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="131" id="bOk-MZ-oQD"/>
+                                    <constraint firstAttribute="height" constant="119" id="vkL-Pn-f9D"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ih7-qt-X9I" firstAttribute="leading" secondItem="d5w-2w-lPA" secondAttribute="leading" constant="16" id="0n2-7N-KYU"/>
+                            <constraint firstItem="foy-bb-fDo" firstAttribute="leading" secondItem="d5w-2w-lPA" secondAttribute="leading" constant="122" id="10f-j9-95H"/>
+                            <constraint firstItem="d5w-2w-lPA" firstAttribute="trailing" secondItem="foy-bb-fDo" secondAttribute="trailing" constant="122" id="HjP-c7-4F2"/>
+                            <constraint firstItem="ih7-qt-X9I" firstAttribute="top" secondItem="d5w-2w-lPA" secondAttribute="top" constant="27" id="Yka-Zg-om8"/>
+                            <constraint firstItem="mUi-hQ-eJK" firstAttribute="top" secondItem="ih7-qt-X9I" secondAttribute="bottom" constant="58" id="ZnF-pB-2QD"/>
+                            <constraint firstItem="d5w-2w-lPA" firstAttribute="trailing" secondItem="ih7-qt-X9I" secondAttribute="trailing" constant="16" id="fbM-hZ-EDW"/>
+                            <constraint firstItem="foy-bb-fDo" firstAttribute="top" secondItem="ih7-qt-X9I" secondAttribute="bottom" constant="169" id="iLN-ft-ihI"/>
+                            <constraint firstItem="mUi-hQ-eJK" firstAttribute="leading" secondItem="d5w-2w-lPA" secondAttribute="leading" constant="16" id="omo-gs-S75"/>
+                            <constraint firstItem="d5w-2w-lPA" firstAttribute="trailing" secondItem="CTq-GD-Mrj" secondAttribute="trailing" constant="16" id="pAa-td-3VW"/>
+                            <constraint firstItem="CTq-GD-Mrj" firstAttribute="top" secondItem="ih7-qt-X9I" secondAttribute="bottom" constant="58" id="ral-Rr-sQH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="d5w-2w-lPA"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Combinestagram" id="C2Y-yz-IkL">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="gyn-D9-wEN"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="buttonClear" destination="mUi-hQ-eJK" id="RZF-u6-0FZ"/>
+                        <outlet property="buttonSave" destination="CTq-GD-Mrj" id="b4J-t1-dz4"/>
+                        <outlet property="imageIcon" destination="foy-bb-fDo" id="E56-NE-rLO"/>
+                        <outlet property="imagePreview" destination="ih7-qt-X9I" id="Hsu-Re-RBB"/>
+                        <outlet property="itemAdd" destination="gyn-D9-wEN" id="qaj-Zc-WII"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8U6-rQ-7FH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-842.39999999999998" y="-7.6461769115442282"/>
+        </scene>
+    </scenes>
+</document>

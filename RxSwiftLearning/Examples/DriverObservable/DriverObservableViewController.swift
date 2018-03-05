@@ -42,11 +42,10 @@ class DriverObservableViewController: RxViewController {
             .drive(navigationItem.rx.title)
             .disposed(by: disposeBag)
         
-        results
-            .drive(tableViewOutlet.rx.items(cellIdentifier: "DriverCell")){
+        results.drive(tableViewOutlet.rx.items(cellIdentifier: "DriverCell"), curriedArgument: {
             (_, result, cell) in
             cell.textLabel?.text = result
-        }.disposed(by: disposeBag)
+        }).disposed(by: disposeBag)
     }
     
     private func searchWikipedia(query: String) ->Maybe<[String]>{
