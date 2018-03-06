@@ -24,6 +24,9 @@
 		82208A98204D3A0C0091160A /* PHPhotoLibrary+rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82208A97204D3A0C0091160A /* PHPhotoLibrary+rx.swift */; };
 		8234D80B2046AA140033116F /* OperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8234D80A2046AA140033116F /* OperatorViewController.swift */; };
 		8234D80D2046AA1F0033116F /* OperatorViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8234D80C2046AA1F0033116F /* OperatorViewController.storyboard */; };
+		824C8632204E3E5B0060F420 /* ActivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824C8630204E3E5B0060F420 /* ActivityController.swift */; };
+		824C8633204E3E5B0060F420 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824C8631204E3E5B0060F420 /* Event.swift */; };
+		824C8635204E3E720060F420 /* ActivityController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824C8634204E3E720060F420 /* ActivityController.storyboard */; };
 		82B60FC0204CD36800683242 /* CombinestagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B60FBF204CD36800683242 /* CombinestagramViewController.swift */; };
 		82B60FC2204CD37F00683242 /* CombinestagramViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82B60FC1204CD37F00683242 /* CombinestagramViewController.storyboard */; };
 		82B60FC8204CD59300683242 /* UIImage+Collage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B60FC3204CD59200683242 /* UIImage+Collage.swift */; };
@@ -47,6 +50,8 @@
 		82C83A3120468D6400FB5B40 /* ObservableAndObserverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C83A3020468D6400FB5B40 /* ObservableAndObserverViewController.swift */; };
 		82C83A3320468D8200FB5B40 /* ObservableAndObserverViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82C83A3220468D8200FB5B40 /* ObservableAndObserverViewController.storyboard */; };
 		963E46CE1C489734B5AB0417 /* Pods_RxSwiftLearning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C43858D3CE2A4B018D9B3E29 /* Pods_RxSwiftLearning.framework */; };
+		AF094F69363CBA8A49F39B48 /* Pods_RxSwiftLearning_RxSwiftLearningTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F716DD1910F2CB67C4EC377 /* Pods_RxSwiftLearning_RxSwiftLearningTests.framework */; };
+		F2493A871F8DA6A21475AF86 /* Pods_RxSwiftLearning_RxSwiftLearningUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA39BD6457F4BFD748FD50E /* Pods_RxSwiftLearning_RxSwiftLearningUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,7 +94,10 @@
 		186A62DE20455B43005ED748 /* SingleObservable.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SingleObservable.storyboard; sourceTree = "<group>"; };
 		23C913B0803DA81E7B011E37 /* Pods-RxSwiftLearningTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftLearningTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftLearningTests/Pods-RxSwiftLearningTests.release.xcconfig"; sourceTree = "<group>"; };
 		27B399CC736A996FDE03A313 /* Pods-RxSwiftLearningTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftLearningTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftLearningTests/Pods-RxSwiftLearningTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4231A6D255E5221BB82D374C /* Pods-RxSwiftLearning-RxSwiftLearningUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftLearning-RxSwiftLearningUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftLearning-RxSwiftLearningUITests/Pods-RxSwiftLearning-RxSwiftLearningUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		48569111E222C452AC7492D3 /* Pods-RxSwiftLearningUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftLearningUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftLearningUITests/Pods-RxSwiftLearningUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4F716DD1910F2CB67C4EC377 /* Pods_RxSwiftLearning_RxSwiftLearningTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftLearning_RxSwiftLearningTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A83B84C9F05408A07E8CD7 /* Pods-RxSwiftLearning-RxSwiftLearningUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftLearning-RxSwiftLearningUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftLearning-RxSwiftLearningUITests/Pods-RxSwiftLearning-RxSwiftLearningUITests.release.xcconfig"; sourceTree = "<group>"; };
 		82192D74204804F400B07823 /* Observables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		82192D752048054000B07823 /* Subjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subjects.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		82208A97204D3A0C0091160A /* PHPhotoLibrary+rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PHPhotoLibrary+rx.swift"; sourceTree = "<group>"; };
@@ -97,6 +105,9 @@
 		8224A9A08A1FC2AE200EDAB2 /* Pods_RxSwiftLearningUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftLearningUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8234D80A2046AA140033116F /* OperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorViewController.swift; sourceTree = "<group>"; };
 		8234D80C2046AA1F0033116F /* OperatorViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OperatorViewController.storyboard; sourceTree = "<group>"; };
+		824C8630204E3E5B0060F420 /* ActivityController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityController.swift; sourceTree = "<group>"; };
+		824C8631204E3E5B0060F420 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		824C8634204E3E720060F420 /* ActivityController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ActivityController.storyboard; sourceTree = "<group>"; };
 		82B60FBF204CD36800683242 /* CombinestagramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinestagramViewController.swift; sourceTree = "<group>"; };
 		82B60FC1204CD37F00683242 /* CombinestagramViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CombinestagramViewController.storyboard; sourceTree = "<group>"; };
 		82B60FC3204CD59200683242 /* UIImage+Collage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Collage.swift"; sourceTree = "<group>"; };
@@ -120,9 +131,12 @@
 		82C83A2D20465E7C00FB5B40 /* DriverObservableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DriverObservableViewController.storyboard; sourceTree = "<group>"; };
 		82C83A3020468D6400FB5B40 /* ObservableAndObserverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableAndObserverViewController.swift; sourceTree = "<group>"; };
 		82C83A3220468D8200FB5B40 /* ObservableAndObserverViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ObservableAndObserverViewController.storyboard; sourceTree = "<group>"; };
+		8CA39BD6457F4BFD748FD50E /* Pods_RxSwiftLearning_RxSwiftLearningUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftLearning_RxSwiftLearningUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		972D47D369E529CC66815C37 /* Pods-RxSwiftLearningUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftLearningUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftLearningUITests/Pods-RxSwiftLearningUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9CA2E31BFCD0E2A127EE2F12 /* Pods-RxSwiftLearning-RxSwiftLearningTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftLearning-RxSwiftLearningTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftLearning-RxSwiftLearningTests/Pods-RxSwiftLearning-RxSwiftLearningTests.release.xcconfig"; sourceTree = "<group>"; };
 		9E2083902E410DB7AAADFE20 /* Pods-RxSwiftLearning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftLearning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftLearning/Pods-RxSwiftLearning.debug.xcconfig"; sourceTree = "<group>"; };
 		C43858D3CE2A4B018D9B3E29 /* Pods_RxSwiftLearning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftLearning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B36D16596BAAA7B7B09ACA /* Pods-RxSwiftLearning-RxSwiftLearningTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftLearning-RxSwiftLearningTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftLearning-RxSwiftLearningTests/Pods-RxSwiftLearning-RxSwiftLearningTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F1EE40F68F6383E90583290 /* Pods_RxSwiftLearningTests.framework in Frameworks */,
+				AF094F69363CBA8A49F39B48 /* Pods_RxSwiftLearning_RxSwiftLearningTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77543AF0ED70FA5A6FFEDCEB /* Pods_RxSwiftLearningUITests.framework in Frameworks */,
+				F2493A871F8DA6A21475AF86 /* Pods_RxSwiftLearning_RxSwiftLearningUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +229,7 @@
 		1808C203204542270052AB8D /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				824C862F204E3E4D0060F420 /* GitFeed */,
 				82B60FBE204CD32900683242 /* Combinestagram */,
 				82C202202047D875002AFEBF /* UITest */,
 				8234D8092046A9F40033116F /* Operator */,
@@ -262,6 +279,16 @@
 				8234D80C2046AA1F0033116F /* OperatorViewController.storyboard */,
 			);
 			path = Operator;
+			sourceTree = "<group>";
+		};
+		824C862F204E3E4D0060F420 /* GitFeed */ = {
+			isa = PBXGroup;
+			children = (
+				824C8630204E3E5B0060F420 /* ActivityController.swift */,
+				824C8631204E3E5B0060F420 /* Event.swift */,
+				824C8634204E3E720060F420 /* ActivityController.storyboard */,
+			);
+			path = GitFeed;
 			sourceTree = "<group>";
 		};
 		82B60FBE204CD32900683242 /* Combinestagram */ = {
@@ -345,6 +372,10 @@
 				23C913B0803DA81E7B011E37 /* Pods-RxSwiftLearningTests.release.xcconfig */,
 				972D47D369E529CC66815C37 /* Pods-RxSwiftLearningUITests.debug.xcconfig */,
 				48569111E222C452AC7492D3 /* Pods-RxSwiftLearningUITests.release.xcconfig */,
+				D5B36D16596BAAA7B7B09ACA /* Pods-RxSwiftLearning-RxSwiftLearningTests.debug.xcconfig */,
+				9CA2E31BFCD0E2A127EE2F12 /* Pods-RxSwiftLearning-RxSwiftLearningTests.release.xcconfig */,
+				4231A6D255E5221BB82D374C /* Pods-RxSwiftLearning-RxSwiftLearningUITests.debug.xcconfig */,
+				50A83B84C9F05408A07E8CD7 /* Pods-RxSwiftLearning-RxSwiftLearningUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -355,6 +386,8 @@
 				C43858D3CE2A4B018D9B3E29 /* Pods_RxSwiftLearning.framework */,
 				15BC059C0B580BCC1E66852D /* Pods_RxSwiftLearningTests.framework */,
 				8224A9A08A1FC2AE200EDAB2 /* Pods_RxSwiftLearningUITests.framework */,
+				4F716DD1910F2CB67C4EC377 /* Pods_RxSwiftLearning_RxSwiftLearningTests.framework */,
+				8CA39BD6457F4BFD748FD50E /* Pods_RxSwiftLearning_RxSwiftLearningUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -485,6 +518,7 @@
 				1808C1D920453B100052AB8D /* Assets.xcassets in Resources */,
 				1808C1D420453B100052AB8D /* Main.storyboard in Resources */,
 				82C83A2720464F7400FB5B40 /* MaybeObservableViewController.storyboard in Resources */,
+				824C8635204E3E720060F420 /* ActivityController.storyboard in Resources */,
 				82B60FCE204CD76B00683242 /* IMG_1907.jpg in Resources */,
 				186A62DF20455B43005ED748 /* SingleObservable.storyboard in Resources */,
 				82C83A2220464C2600FB5B40 /* CompleteObservableViewController.storyboard in Resources */,
@@ -531,11 +565,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftLearning/Pods-RxSwiftLearning-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
@@ -555,7 +591,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RxSwiftLearningUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RxSwiftLearning-RxSwiftLearningUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -574,7 +610,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftLearningUITests/Pods-RxSwiftLearningUITests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftLearning-RxSwiftLearningUITests/Pods-RxSwiftLearning-RxSwiftLearningUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9BA840BF03A585412A36E96F /* [CP] Copy Pods Resources */ = {
@@ -589,7 +625,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftLearningTests/Pods-RxSwiftLearningTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftLearning-RxSwiftLearningTests/Pods-RxSwiftLearning-RxSwiftLearningTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9EE6A904C974C01417FE4577 /* [CP] Check Pods Manifest.lock */ = {
@@ -603,7 +639,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RxSwiftLearningTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RxSwiftLearning-RxSwiftLearningTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -616,20 +652,24 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftLearningUITests/Pods-RxSwiftLearningUITests-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftLearning-RxSwiftLearningUITests/Pods-RxSwiftLearning-RxSwiftLearningUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
 				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftLearningUITests/Pods-RxSwiftLearningUITests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftLearning-RxSwiftLearningUITests/Pods-RxSwiftLearning-RxSwiftLearningUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F0DCFBBB6EBDDE23897C8B87 /* [CP] Check Pods Manifest.lock */ = {
@@ -656,20 +696,24 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftLearningTests/Pods-RxSwiftLearningTests-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftLearning-RxSwiftLearningTests/Pods-RxSwiftLearning-RxSwiftLearningTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
 				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftLearningTests/Pods-RxSwiftLearningTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftLearning-RxSwiftLearningTests/Pods-RxSwiftLearning-RxSwiftLearningTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -687,6 +731,7 @@
 				82B60FD2204CEF1000683242 /* UIViewController+rx.swift in Sources */,
 				1808C20020453F070052AB8D /* RootViewController.swift in Sources */,
 				82208A98204D3A0C0091160A /* PHPhotoLibrary+rx.swift in Sources */,
+				824C8633204E3E5B0060F420 /* Event.swift in Sources */,
 				82C83A202046498A00FB5B40 /* CompleteObservableViewController.swift in Sources */,
 				82B60FC9204CD59300683242 /* MainViewController.swift in Sources */,
 				82C83A1D2046441F00FB5B40 /* RxViewController.swift in Sources */,
@@ -699,6 +744,7 @@
 				82C83A29204653D200FB5B40 /* AlertHelper.swift in Sources */,
 				1808C1CF20453B100052AB8D /* AppDelegate.swift in Sources */,
 				82B60FC8204CD59300683242 /* UIImage+Collage.swift in Sources */,
+				824C8632204E3E5B0060F420 /* ActivityController.swift in Sources */,
 				1808C205204542600052AB8D /* SimpleValidationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -895,7 +941,7 @@
 		};
 		1808C1FA20453B100052AB8D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27B399CC736A996FDE03A313 /* Pods-RxSwiftLearningTests.debug.xcconfig */;
+			baseConfigurationReference = D5B36D16596BAAA7B7B09ACA /* Pods-RxSwiftLearning-RxSwiftLearningTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -913,7 +959,7 @@
 		};
 		1808C1FB20453B100052AB8D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23C913B0803DA81E7B011E37 /* Pods-RxSwiftLearningTests.release.xcconfig */;
+			baseConfigurationReference = 9CA2E31BFCD0E2A127EE2F12 /* Pods-RxSwiftLearning-RxSwiftLearningTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -931,7 +977,7 @@
 		};
 		1808C1FD20453B100052AB8D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 972D47D369E529CC66815C37 /* Pods-RxSwiftLearningUITests.debug.xcconfig */;
+			baseConfigurationReference = 4231A6D255E5221BB82D374C /* Pods-RxSwiftLearning-RxSwiftLearningUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -948,7 +994,7 @@
 		};
 		1808C1FE20453B100052AB8D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48569111E222C452AC7492D3 /* Pods-RxSwiftLearningUITests.release.xcconfig */;
+			baseConfigurationReference = 50A83B84C9F05408A07E8CD7 /* Pods-RxSwiftLearning-RxSwiftLearningUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
