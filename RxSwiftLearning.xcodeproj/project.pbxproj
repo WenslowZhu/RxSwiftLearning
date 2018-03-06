@@ -93,6 +93,7 @@
 		82192D74204804F400B07823 /* Observables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		82192D752048054000B07823 /* Subjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subjects.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		82208A97204D3A0C0091160A /* PHPhotoLibrary+rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PHPhotoLibrary+rx.swift"; sourceTree = "<group>"; };
+		82208A99204D47E30091160A /* Transforming.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Transforming.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8224A9A08A1FC2AE200EDAB2 /* Pods_RxSwiftLearningUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftLearningUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8234D80A2046AA140033116F /* OperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorViewController.swift; sourceTree = "<group>"; };
 		8234D80C2046AA1F0033116F /* OperatorViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OperatorViewController.storyboard; sourceTree = "<group>"; };
@@ -246,6 +247,7 @@
 		82192D73204804DC00B07823 /* Playgrounds */ = {
 			isa = PBXGroup;
 			children = (
+				82208A99204D47E30091160A /* Transforming.playground */,
 				82B60FD3204CF4ED00683242 /* FilterOperations.playground */,
 				82192D752048054000B07823 /* Subjects.playground */,
 				82192D74204804F400B07823 /* Observables.playground */,
