@@ -131,6 +131,7 @@
 		82C83A2D20465E7C00FB5B40 /* DriverObservableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DriverObservableViewController.storyboard; sourceTree = "<group>"; };
 		82C83A3020468D6400FB5B40 /* ObservableAndObserverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableAndObserverViewController.swift; sourceTree = "<group>"; };
 		82C83A3220468D8200FB5B40 /* ObservableAndObserverViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ObservableAndObserverViewController.storyboard; sourceTree = "<group>"; };
+		82E10DEE204F7B8600D3FF92 /* Combining.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Combining.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8CA39BD6457F4BFD748FD50E /* Pods_RxSwiftLearning_RxSwiftLearningUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftLearning_RxSwiftLearningUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		972D47D369E529CC66815C37 /* Pods-RxSwiftLearningUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftLearningUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftLearningUITests/Pods-RxSwiftLearningUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9CA2E31BFCD0E2A127EE2F12 /* Pods-RxSwiftLearning-RxSwiftLearningTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftLearning-RxSwiftLearningTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftLearning-RxSwiftLearningTests/Pods-RxSwiftLearning-RxSwiftLearningTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -264,6 +265,7 @@
 		82192D73204804DC00B07823 /* Playgrounds */ = {
 			isa = PBXGroup;
 			children = (
+				82E10DEE204F7B8600D3FF92 /* Combining.playground */,
 				82208A99204D47E30091160A /* Transforming.playground */,
 				82B60FD3204CF4ED00683242 /* FilterOperations.playground */,
 				82192D752048054000B07823 /* Subjects.playground */,

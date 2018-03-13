@@ -196,7 +196,7 @@ example(of: "Challenge 1") {
     let input = Variable<String>("")
     
     input.asObservable()
-        // 将文字装成数字
+        // 将文字转成数字
         .map{convert($0)}
         // 去除nil
         .flatMap{$0 == nil ? Observable.empty() : Observable.just($0!)}
