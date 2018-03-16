@@ -225,6 +225,7 @@ example(of: "Challenges using scan and tuple") {
     
     observable.subscribe(onNext: {print("currentValue: \($0.0), totalValue: \($0.1)")})
 }
+
 /*:
  Copyright (c) 2014-2017 Razeware LLC
  

@@ -27,6 +27,15 @@
 		824C8632204E3E5B0060F420 /* ActivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824C8630204E3E5B0060F420 /* ActivityController.swift */; };
 		824C8633204E3E5B0060F420 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824C8631204E3E5B0060F420 /* Event.swift */; };
 		824C8635204E3E720060F420 /* ActivityController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824C8634204E3E720060F420 /* ActivityController.storyboard */; };
+		824E6F44205A54E5005F4C6F /* EOLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E6F3F205A54E5005F4C6F /* EOLocation.swift */; };
+		824E6F45205A54E5005F4C6F /* EOError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E6F40205A54E5005F4C6F /* EOError.swift */; };
+		824E6F46205A54E5005F4C6F /* EOEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E6F41205A54E5005F4C6F /* EOEvent.swift */; };
+		824E6F47205A54E5005F4C6F /* EOCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E6F42205A54E5005F4C6F /* EOCategory.swift */; };
+		824E6F48205A54E5005F4C6F /* EONET.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E6F43205A54E5005F4C6F /* EONET.swift */; };
+		824E6F4C205A54EE005F4C6F /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E6F49205A54EE005F4C6F /* EventCell.swift */; };
+		824E6F4D205A54EE005F4C6F /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E6F4A205A54EE005F4C6F /* CategoriesViewController.swift */; };
+		824E6F4E205A54EE005F4C6F /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E6F4B205A54EE005F4C6F /* EventsViewController.swift */; };
+		824E6F50205A5525005F4C6F /* OurPlanet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824E6F4F205A5524005F4C6F /* OurPlanet.storyboard */; };
 		82B60FC0204CD36800683242 /* CombinestagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B60FBF204CD36800683242 /* CombinestagramViewController.swift */; };
 		82B60FC2204CD37F00683242 /* CombinestagramViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82B60FC1204CD37F00683242 /* CombinestagramViewController.storyboard */; };
 		82B60FC8204CD59300683242 /* UIImage+Collage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B60FC3204CD59200683242 /* UIImage+Collage.swift */; };
@@ -108,6 +117,15 @@
 		824C8630204E3E5B0060F420 /* ActivityController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityController.swift; sourceTree = "<group>"; };
 		824C8631204E3E5B0060F420 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		824C8634204E3E720060F420 /* ActivityController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ActivityController.storyboard; sourceTree = "<group>"; };
+		824E6F3F205A54E5005F4C6F /* EOLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EOLocation.swift; sourceTree = "<group>"; };
+		824E6F40205A54E5005F4C6F /* EOError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EOError.swift; sourceTree = "<group>"; };
+		824E6F41205A54E5005F4C6F /* EOEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EOEvent.swift; sourceTree = "<group>"; };
+		824E6F42205A54E5005F4C6F /* EOCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EOCategory.swift; sourceTree = "<group>"; };
+		824E6F43205A54E5005F4C6F /* EONET.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EONET.swift; sourceTree = "<group>"; };
+		824E6F49205A54EE005F4C6F /* EventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		824E6F4A205A54EE005F4C6F /* CategoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		824E6F4B205A54EE005F4C6F /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		824E6F4F205A5524005F4C6F /* OurPlanet.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OurPlanet.storyboard; sourceTree = "<group>"; };
 		82B60FBF204CD36800683242 /* CombinestagramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinestagramViewController.swift; sourceTree = "<group>"; };
 		82B60FC1204CD37F00683242 /* CombinestagramViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CombinestagramViewController.storyboard; sourceTree = "<group>"; };
 		82B60FC3204CD59200683242 /* UIImage+Collage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Collage.swift"; sourceTree = "<group>"; };
@@ -230,6 +248,7 @@
 		1808C203204542270052AB8D /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				824E6F3D205A54D4005F4C6F /* OurPlanet */,
 				824C862F204E3E4D0060F420 /* GitFeed */,
 				82B60FBE204CD32900683242 /* Combinestagram */,
 				82C202202047D875002AFEBF /* UITest */,
@@ -291,6 +310,30 @@
 				824C8634204E3E720060F420 /* ActivityController.storyboard */,
 			);
 			path = GitFeed;
+			sourceTree = "<group>";
+		};
+		824E6F3D205A54D4005F4C6F /* OurPlanet */ = {
+			isa = PBXGroup;
+			children = (
+				824E6F4F205A5524005F4C6F /* OurPlanet.storyboard */,
+				824E6F4A205A54EE005F4C6F /* CategoriesViewController.swift */,
+				824E6F49205A54EE005F4C6F /* EventCell.swift */,
+				824E6F4B205A54EE005F4C6F /* EventsViewController.swift */,
+				824E6F3E205A54E5005F4C6F /* Model */,
+			);
+			path = OurPlanet;
+			sourceTree = "<group>";
+		};
+		824E6F3E205A54E5005F4C6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				824E6F3F205A54E5005F4C6F /* EOLocation.swift */,
+				824E6F40205A54E5005F4C6F /* EOError.swift */,
+				824E6F41205A54E5005F4C6F /* EOEvent.swift */,
+				824E6F42205A54E5005F4C6F /* EOCategory.swift */,
+				824E6F43205A54E5005F4C6F /* EONET.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		82B60FBE204CD32900683242 /* Combinestagram */ = {
@@ -515,6 +558,7 @@
 				1808C207204542720052AB8D /* SimpleValidationViewController.storyboard in Resources */,
 				1808C1DC20453B100052AB8D /* LaunchScreen.storyboard in Resources */,
 				82C83A3320468D8200FB5B40 /* ObservableAndObserverViewController.storyboard in Resources */,
+				824E6F50205A5525005F4C6F /* OurPlanet.storyboard in Resources */,
 				82C202242047D89A002AFEBF /* UITestViewController.storyboard in Resources */,
 				82B60FD0204CE9EC00683242 /* PhotosViewController.storyboard in Resources */,
 				1808C1D920453B100052AB8D /* Assets.xcassets in Resources */,
@@ -727,14 +771,20 @@
 			files = (
 				82B60FC0204CD36800683242 /* CombinestagramViewController.swift in Sources */,
 				82C83A3120468D6400FB5B40 /* ObservableAndObserverViewController.swift in Sources */,
+				824E6F47205A54E5005F4C6F /* EOCategory.swift in Sources */,
 				82C83A2520464F3B00FB5B40 /* MaybeObservableViewController.swift in Sources */,
 				8234D80B2046AA140033116F /* OperatorViewController.swift in Sources */,
+				824E6F48205A54E5005F4C6F /* EONET.swift in Sources */,
 				1808C1D720453B100052AB8D /* RxSwiftLearning.xcdatamodeld in Sources */,
+				824E6F45205A54E5005F4C6F /* EOError.swift in Sources */,
 				82B60FD2204CEF1000683242 /* UIViewController+rx.swift in Sources */,
 				1808C20020453F070052AB8D /* RootViewController.swift in Sources */,
 				82208A98204D3A0C0091160A /* PHPhotoLibrary+rx.swift in Sources */,
+				824E6F44205A54E5005F4C6F /* EOLocation.swift in Sources */,
 				824C8633204E3E5B0060F420 /* Event.swift in Sources */,
 				82C83A202046498A00FB5B40 /* CompleteObservableViewController.swift in Sources */,
+				824E6F4D205A54EE005F4C6F /* CategoriesViewController.swift in Sources */,
+				824E6F4E205A54EE005F4C6F /* EventsViewController.swift in Sources */,
 				82B60FC9204CD59300683242 /* MainViewController.swift in Sources */,
 				82C83A1D2046441F00FB5B40 /* RxViewController.swift in Sources */,
 				82B60FCB204CD59300683242 /* PhotosViewController.swift in Sources */,
@@ -744,7 +794,9 @@
 				82B60FCA204CD59300683242 /* PhotoWriter.swift in Sources */,
 				186A62DD20455B3A005ED748 /* SingleObservableViewController.swift in Sources */,
 				82C83A29204653D200FB5B40 /* AlertHelper.swift in Sources */,
+				824E6F4C205A54EE005F4C6F /* EventCell.swift in Sources */,
 				1808C1CF20453B100052AB8D /* AppDelegate.swift in Sources */,
+				824E6F46205A54E5005F4C6F /* EOEvent.swift in Sources */,
 				82B60FC8204CD59300683242 /* UIImage+Collage.swift in Sources */,
 				824C8632204E3E5B0060F420 /* ActivityController.swift in Sources */,
 				1808C205204542600052AB8D /* SimpleValidationViewController.swift in Sources */,
