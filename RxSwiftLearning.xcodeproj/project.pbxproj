@@ -48,6 +48,7 @@
 		82B60FD2204CEF1000683242 /* UIViewController+rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B60FD1204CEF1000683242 /* UIViewController+rx.swift */; };
 		82C202222047D88C002AFEBF /* UITestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C202212047D88C002AFEBF /* UITestViewController.swift */; };
 		82C202242047D89A002AFEBF /* UITestViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82C202232047D89A002AFEBF /* UITestViewController.storyboard */; };
+		82C559B920625AFB00947D54 /* ApiCOntroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C559B820625AFB00947D54 /* ApiCOntroller.swift */; };
 		82C83A1D2046441F00FB5B40 /* RxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C83A1C2046441F00FB5B40 /* RxViewController.swift */; };
 		82C83A202046498A00FB5B40 /* CompleteObservableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C83A1F2046498A00FB5B40 /* CompleteObservableViewController.swift */; };
 		82C83A2220464C2600FB5B40 /* CompleteObservableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82C83A2120464C2600FB5B40 /* CompleteObservableViewController.storyboard */; };
@@ -139,6 +140,7 @@
 		82B60FD3204CF4ED00683242 /* FilterOperations.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FilterOperations.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		82C202212047D88C002AFEBF /* UITestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestViewController.swift; sourceTree = "<group>"; };
 		82C202232047D89A002AFEBF /* UITestViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UITestViewController.storyboard; sourceTree = "<group>"; };
+		82C559B820625AFB00947D54 /* ApiCOntroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCOntroller.swift; sourceTree = "<group>"; };
 		82C83A1C2046441F00FB5B40 /* RxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxViewController.swift; sourceTree = "<group>"; };
 		82C83A1F2046498A00FB5B40 /* CompleteObservableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteObservableViewController.swift; sourceTree = "<group>"; };
 		82C83A2120464C2600FB5B40 /* CompleteObservableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CompleteObservableViewController.storyboard; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 		82C83A2D20465E7C00FB5B40 /* DriverObservableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DriverObservableViewController.storyboard; sourceTree = "<group>"; };
 		82C83A3020468D6400FB5B40 /* ObservableAndObserverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableAndObserverViewController.swift; sourceTree = "<group>"; };
 		82C83A3220468D8200FB5B40 /* ObservableAndObserverViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ObservableAndObserverViewController.storyboard; sourceTree = "<group>"; };
+		82DA43E3205BC17D001D4495 /* TimeBase.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TimeBase.playground; sourceTree = "<group>"; };
 		82E10DEE204F7B8600D3FF92 /* Combining.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Combining.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8CA39BD6457F4BFD748FD50E /* Pods_RxSwiftLearning_RxSwiftLearningUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftLearning_RxSwiftLearningUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		972D47D369E529CC66815C37 /* Pods-RxSwiftLearningUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftLearningUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftLearningUITests/Pods-RxSwiftLearningUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -284,6 +287,7 @@
 		82192D73204804DC00B07823 /* Playgrounds */ = {
 			isa = PBXGroup;
 			children = (
+				82DA43E3205BC17D001D4495 /* TimeBase.playground */,
 				82E10DEE204F7B8600D3FF92 /* Combining.playground */,
 				82208A99204D47E30091160A /* Transforming.playground */,
 				82B60FD3204CF4ED00683242 /* FilterOperations.playground */,
@@ -368,6 +372,7 @@
 			children = (
 				82C83A1C2046441F00FB5B40 /* RxViewController.swift */,
 				82C83A28204653D200FB5B40 /* AlertHelper.swift */,
+				82C559B820625AFB00947D54 /* ApiCOntroller.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -781,6 +786,7 @@
 				1808C20020453F070052AB8D /* RootViewController.swift in Sources */,
 				82208A98204D3A0C0091160A /* PHPhotoLibrary+rx.swift in Sources */,
 				824E6F44205A54E5005F4C6F /* EOLocation.swift in Sources */,
+				82C559B920625AFB00947D54 /* ApiCOntroller.swift in Sources */,
 				824C8633204E3E5B0060F420 /* Event.swift in Sources */,
 				82C83A202046498A00FB5B40 /* CompleteObservableViewController.swift in Sources */,
 				824E6F4D205A54EE005F4C6F /* CategoriesViewController.swift in Sources */,
